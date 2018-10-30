@@ -7,6 +7,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  menuData = [
+    { title: 'Our menu', pic: 'assets/img/soup1.jpg', pushPage: 'MenuPage' },
+  ];
   constructor(public navCtrl: NavController) {
 
   }
